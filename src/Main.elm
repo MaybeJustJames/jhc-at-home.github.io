@@ -175,8 +175,14 @@ slide11 =
     md
         """
          * Breadcrumbs and tooltips are extracted to reusable "components".
+
+         * These components have predictable (e.g. ${prefix}-crumb, where ${prefix} is either
+         set in the options or defaults to "unipept-${visualisation-name}") class names so
+         the style can easily be customised by the user.
+
          * Typechecks with Typescripts strictest settings and passes with
          most reasonable linter settings.
+
          * Most functions are documented for their meaning/intention, input arguments, and expected outputs. Missing enforced invariants... but expect Typescript compiler to help.
          """
 
@@ -187,9 +193,12 @@ slide12 =
         """
          # Heatmap
 
-         * State: in progress
+         * Currently in progress.
+
          * Is in seperate git tree.
+
          * In order to keep history, merge remote branch with `--allow-unrelated-histories`.
+
          * As with all other visualisations it defined its own tooltip so majority of
          remaining work is harmonising with the existing infrastructure.
          """
@@ -202,9 +211,13 @@ slide13 =
          # Still to be done...
 
          * Treemap, Treeview (started by Bart), and phylogenetic tree visualisations.
+
          * Higher level documentation.
+
          * Search and highlighting of data nodes.
+
          * Example website (merely tying in already existing examples).
+
          * Creation of data manipulation tools.
          """
 
@@ -221,9 +234,9 @@ note : Slide
 note =
     md
         """
-         This slideshow was created with Elm (with the "Slides" library).
+         This slideshow was created with Elm (using the "Slides" library).
          It has embedded markdown and also HTML and CSS.
          The transitions and formatting are configurable.
 
-         Source can be found (here)[https://github.com/jhc-at-home/jhc-at-home.github.io].
+         Source can be found on [my github](https://github.com/jhc-at-home/jhc-at-home.github.io).
          """
