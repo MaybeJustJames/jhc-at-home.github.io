@@ -1,6 +1,6 @@
 module Main exposing (main)
 
-import Css exposing (height, hex, pct, px, width)
+import Css exposing (hex, pct, px, width)
 import Html.Styled exposing (div, h1, img, text)
 import Html.Styled.Attributes exposing (css, src)
 import Slides exposing (Model, Msg, Slide, app, html, md, mdFragments, slidesDefaultOptions)
@@ -116,6 +116,8 @@ slide7 =
          * Project is well defined so can be described in Github tickets.
          * Progress on tickets can be tracked in a Github project (https://github.com/unipept/unipept-visualizations/projects/1).
          * Standard tools for build (npm or yarn), bundling (webpack), test (jest) selected by Bart.
+
+         ![project](./images/project.png "Project")
          """
 
 
