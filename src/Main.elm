@@ -51,10 +51,15 @@ slide2 =
          # Requirements:
 
          * Rewrite / port plain javascript to `Typescript`.
+
          * Depend on newest version (v5) of `D3.js` for visualisations and remove `jQuery`.
+
          * Add extensive testing and documentation.
+
          * Add new features and visualisations (Heatmap, phylogenetic tree, search, highlighting, ...).
+
          * Create a project website with explorable examples.
+
          * Create tools for manipulating data into the correct format.
          """
 
@@ -114,7 +119,9 @@ slide7 =
          # Set up
 
          * Project is well defined so can be described in Github tickets.
+
          * Progress on tickets can be tracked in a Github project (https://github.com/unipept/unipept-visualizations/projects/1).
+
          * Standard tools for build (npm or yarn), bundling (webpack), test (jest) selected by Bart.
 
          ![project](./images/project.png "Project")
@@ -123,15 +130,32 @@ slide7 =
 
 slide8 : Slide
 slide8 =
-    md
-        """
-         # Infrastructure
+    mdFragments
+        [ """
+          # Infrastructure
 
-         * A JQuery plugin was used to attach visualisation to a DOM node. This is removed in favour of an opaque option CSS selector.
-         * A generic settings class is used from which visualisation specific settings are inherited.
-         * An Optional / Maybe type is implemented to make dealing with JS weirdness easier.
-         * Compiler is set up to be as strict as possible to catch errors earlier.
-         """
+          * A JQuery plugin was used to attach visualisation to a DOM node. This is removed in
+          favour of an opaque option CSS selector. e.g.
+          """
+        , """
+           ```
+           sunburst(data, {parent: "#selector"});
+           ```
+           """
+        , """
+
+           * A generic settings class is used for all visualisations.
+           Visualisation specific settings are inherited from this class.
+           """
+        , """
+
+           * Compiler is set up to be as strict as possible to catch errors earlier.
+           """
+        , """
+
+           * An Optional type is implemented to make dealing with JS weirdness easier.
+           """
+        ]
 
 
 slide9 : Slide
