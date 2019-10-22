@@ -5160,8 +5160,14 @@ var xarvh$elm_slides$Slides$md = function (markdownContent) {
 		_List_fromArray(
 			[markdownContent]));
 };
-var author$project$Main$slide1 = xarvh$elm_slides$Slides$md('\n         # Unipept Visualisation Toolkit\n\n         ## An update with Typescript and D3js v5\n         ');
-var author$project$Main$slide2 = xarvh$elm_slides$Slides$md('\n         # Requirements:\n\n         * Rewrite / port plain javascript to `Typescript`.\n         * Depend on newest version (v5) of `D3.js` for visualisations and remove `jQuery`.\n         * Add extensive testing and documentation and developer tools.\n         * Add new features and visualisations (Heatmap, phylogenetic tree, search, highlighting, ...).\n         * Create a project website with explorable examples.\n         * Create tools for manipulating data into the correct format.\n         ');
+var author$project$Main$note = xarvh$elm_slides$Slides$md('\n         This slideshow was created with Elm (with the "Slides" library).\n         It has embedded markdown and also HTML and CSS.\n         The transitions and formatting are configurable.\n\n         Source can be found (here)[https://github.com/jhc-at-home/jhc-at-home.github.io].\n         ');
+var author$project$Main$questions = xarvh$elm_slides$Slides$md('\n         # Questions?\n         ');
+var author$project$Main$slide1 = xarvh$elm_slides$Slides$md('\n         # Unipept Visualisation Toolkit\n\n         ## An update with Typescript and D3js v5\n\n         Project Contact: Bart Mesuere\n         ');
+var author$project$Main$slide10 = xarvh$elm_slides$Slides$md('\n         # Sunburst porting is complete (under review)\n\n         [demo](./sunburst-flare-v2.html)\n         ');
+var author$project$Main$slide11 = xarvh$elm_slides$Slides$md('\n         * Breadcrumbs and tooltips are extracted to reusable "components".\n         * Typechecks with Typescripts strictest settings and passes with\n         most reasonable linter settings.\n         * Most functions are documented for their meaning/intention, input arguments, and expected outputs. Missing enforced invariants... but expect Typescript compiler to help.\n         ');
+var author$project$Main$slide12 = xarvh$elm_slides$Slides$md('\n         # Heatmap\n\n         * State: in progress\n         * Is in seperate git tree.\n         * In order to keep history, merge remote branch with `--allow-unrelated-histories`.\n         * As with all other visualisations it defined its own tooltip so majority of\n         remaining work is harmonising with the existing infrastructure.\n         ');
+var author$project$Main$slide13 = xarvh$elm_slides$Slides$md('\n         # Still to be done...\n\n         * Treemap, Treeview (started by Bart), and phylogenetic tree visualisations.\n         * Higher level documentation.\n         * Search and highlighting of data nodes.\n         * Example website (merely tying in already existing examples).\n         * Creation of data manipulation tools.\n         ');
+var author$project$Main$slide2 = xarvh$elm_slides$Slides$md('\n         # Requirements:\n\n         * Rewrite / port plain javascript to `Typescript`.\n         * Depend on newest version (v5) of `D3.js` for visualisations and remove `jQuery`.\n         * Add extensive testing and documentation.\n         * Add new features and visualisations (Heatmap, phylogenetic tree, search, highlighting, ...).\n         * Create a project website with explorable examples.\n         * Create tools for manipulating data into the correct format.\n         ');
 var author$project$Main$slide3 = xarvh$elm_slides$Slides$md('\n         # What exists now?\n         ');
 var author$project$Main$slide4 = xarvh$elm_slides$Slides$md('\n         # Treeview\n\n         ![treeview](./images/treeview.png "Treeview")\n         ');
 var rtfeldman$elm_css$Css$PercentageUnits = {$: 'PercentageUnits'};
@@ -7159,6 +7165,11 @@ var author$project$Main$slide6 = xarvh$elm_slides$Slides$html(
 					]),
 				_List_Nil)
 			])));
+var author$project$Main$slide7 = xarvh$elm_slides$Slides$md('\n         # Set up\n\n         * Project is well defined so can be described in Github tickets.\n         * Progress on tickets can be tracked in a Github project (https://github.com/unipept/unipept-visualizations/projects/1).\n         * Standard tools for build (npm or yarn), bundling (webpack), test (jest) selected by Bart.\n         ');
+var author$project$Main$slide8 = xarvh$elm_slides$Slides$md('\n         # Infrastructure\n\n         * A JQuery plugin was used to attach visualisation to a DOM node. This is removed in favour of an opaque option CSS selector.\n         * A generic settings class is used from which visualisation specific settings are inherited.\n         * An Optional / Maybe type is implemented to make dealing with JS weirdness easier.\n         * Compiler is set up to be as strict as possible to catch errors earlier.\n         ');
+var author$project$Main$slide9 = xarvh$elm_slides$Slides$mdFragments(
+	_List_fromArray(
+		['# Aside: Utility of Optional', '\n\n          ```\n          function foo(arg: number | undefined): number {\n            if (arg === undefined) {\n              return 0;\n            }\n\n            return computation_on_arg;\n          }\n          ```\n           ', '\n         ```\n         function foo(arg: Optional<number>): number {\n           return arg.map(computation_on_arg).withDefault(0);\n         }\n         ```\n         ']));
 var elm$core$String$startsWith = _String_startsWith;
 var elm$core$String$foldr = _String_foldr;
 var elm$core$String$toList = function (string) {
@@ -9933,7 +9944,7 @@ var author$project$Main$main = A2(
 			title: 'Unipept Visualisation Toolkit'
 		}),
 	_List_fromArray(
-		[author$project$Main$slide1, author$project$Main$slide2, author$project$Main$slide3, author$project$Main$slide4, author$project$Main$slide5, author$project$Main$slide6]));
+		[author$project$Main$slide1, author$project$Main$slide2, author$project$Main$slide3, author$project$Main$slide4, author$project$Main$slide5, author$project$Main$slide6, author$project$Main$slide7, author$project$Main$slide8, author$project$Main$slide9, author$project$Main$slide10, author$project$Main$slide11, author$project$Main$slide12, author$project$Main$slide13, author$project$Main$questions, author$project$Main$note]));
 _Platform_export({'Main':{'init':author$project$Main$main(
 	elm$json$Json$Decode$succeed(_Utils_Tuple0))(0)}});}(this));
 
