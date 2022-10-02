@@ -59,13 +59,13 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 
 ## Software
 
-* [Zephyr](https://github.com/MaybeJustJames/zephyr) Dead code elimination tool for [Purescript](https://purescript.org/) written in [Haskell](https://haskell.org/).
-* [yaml](https://github.com/MaybeJustJames/yaml) YAML encoding/decoding library for [Elm](https://elm-lang.org/).
-* [Phylio](https://github.com/vibbits/phylio) [Purescript](https://purescript.org) library for parsing phylogenetic trees.
-* [VIB-CSS](https://github.com/vibbits/vib-css) CSS library for styling VIB websites and apps.
-* [Super](https://gitlab.com/structural-fragment-search/super) 3D pattern matching on proteins.
-* [SCope](https://github.com/aertslab/SCope) web app to visualise single-cell transcriptomics data.
-* [MMLigner](https://lcb.infotech.monash.edu/mmligner/) align protein structures based on [Minimum Message Length](http://allisons.org/ll/MML/) inference.
+* [Zephyr](https://github.com/MaybeJustJames/zephyr): Dead code elimination tool for [Purescript](https://purescript.org/) written in [Haskell](https://haskell.org/).
+* [yaml](https://github.com/MaybeJustJames/yaml): YAML encoding/decoding library for [Elm](https://elm-lang.org/).
+* [Phylio](https://github.com/vibbits/phylio): [Purescript](https://purescript.org) library for parsing phylogenetic trees.
+* [VIB-CSS](https://github.com/vibbits/vib-css): CSS library for styling websites and apps for the Flemish Institute for Biotechnology.
+* [Super](https://gitlab.com/structural-fragment-search/super): 3D pattern matching on proteins.
+* [SCope](https://github.com/aertslab/SCope): web app to visualise single-cell transcriptomics data.
+* [MMLigner](https://lcb.infotech.monash.edu/mmligner/): align protein structures based on [Minimum Message Length](http://allisons.org/ll/MML/) inference.
 
 ## Awards
 
