@@ -55,7 +55,7 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 **Emacs**, **Spago**, **Purs**, **Cabal**, **GHC**, **Purs-Tidy**, **Stylish-Haskell**, **Nix**, **Poetry**, **Node.js**, **Slick**, **Cargo**, **npm**
 
 `Frameworks`
-**React**, **FastAPI**, **PyTest**, **Redux**
+**React**, **FastAPI**, **PyTest**, **Redux**, **Servant**
 
 ## Software
 
