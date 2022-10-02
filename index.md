@@ -2,8 +2,8 @@
 layout: cv
 title: James Collier Résumé
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Dr. James Collier
+Software Engineer.
 
 <div id="webaddress">
 <a href="james@thecolliers.xyz">james@thecolliers.xyz</a>
@@ -48,17 +48,14 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 
 ## Technical Experience
 
-| Language   | Tool      | Framework  |
-|------------|-----------|------------|
-| Purescript | Spago     | React      |
-| Elm        | Purs      | Elm        |
-| Haskell    | Purs-Tidy | httpurple  |
-| Rust       | Zephyr    | FastAPI    |
-| Javascript | Cabal     | SQLAlchemy |
-| Typescript | Emacs     | PyTest     |
-| SQL        | NPM       | Concur     |
-| C          | Nix       | Redux      |
-| Python     | Node.js   | Redux-Saga |
+`Languages`
+**Purescript**, **Elm**, **Haskell**, **Rust**, **Javascript**, **Typescript**, **SQL**, **C**, **C++**, **Java**, **Python**, **Emacs Lisp**, **Common Lisp**
+
+`Tools`
+**Emacs**, **Spago**, **Purs**, **Cabal**, **GHC**, **Purs-Tidy**, **Stylish-Haskell**, **Nix**, **Poetry**, **Node.js**, **Slick**, **Cargo**, **npm**
+
+`Frameworks`
+**React**, **FastAPI**, **PyTest**, **Redux**
 
 ## Software
 
