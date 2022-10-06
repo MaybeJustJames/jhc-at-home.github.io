@@ -63,9 +63,10 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 * [yaml](https://github.com/MaybeJustJames/yaml): YAML encoding/decoding library for [Elm](https://elm-lang.org/).
 * [Phylio](https://github.com/vibbits/phylio): [Purescript](https://purescript.org) library for parsing phylogenetic trees.
 * [VIB-CSS](https://github.com/vibbits/vib-css): CSS library for styling websites and apps for the Flemish Institute for Biotechnology.
-* [Super](https://gitlab.com/structural-fragment-search/super): 3D pattern matching on proteins.
-* [SCope](https://github.com/aertslab/SCope): web app to visualise single-cell transcriptomics data.
-* [MMLigner](https://lcb.infotech.monash.edu/mmligner/): align protein structures based on [Minimum Message Length](http://allisons.org/ll/MML/) inference.
+* [Super](https://gitlab.com/structural-fragment-search/super): 3D pattern matching on proteins written in C, also a [Python wrapper library](https://pypi.org/project/pysuper/).
+* [SCope](https://github.com/aertslab/SCope): web app to visualise single-cell transcriptomics data. Backend written in [Python](https://python.org/) using [FastAPI](https://fastapi.tiangolo.com/) and [SQLAlchemy](https://www.sqlalchemy.org/). Frontend written in [Typescript](https://www.typescriptlang.org/) using [React](https://reactjs.org/), [Redux](https://redux.js.org/), and [Redux-Saga](https://redux-saga.js.org/).
+* [Falcon-Client](https://bitbucket.org/kloostermannerflab/falcon-swr-client): GUI Client application for [Falcon](https://bitbucket.org/kloostermannerflab/falcon-core) closed-loop neuroscience platform. Uses [Rust](https://www.rust-lang.org/) to communicate with Falcon over [ZeroMQ](https://zeromq.org/). Uses [Elm](https://elm-lang.org/) to display a web GUI interface with real time plotting.
+* [MMLigner](https://lcb.infotech.monash.edu/mmligner/): align protein structures based on [Minimum Message Length](http://allisons.org/ll/MML/) inference. Written in C++.
 
 ## Awards
 
