@@ -8,13 +8,13 @@ Software Engineer.
 <div id="webaddress">
   <a href="james@thecolliers.xyz">james@thecolliers.xyz</a>
 </div>
-<div>
+<div class="social-info">
   <a href="https://twitter.com/MaybeJustJames"><img alt="Twitter" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2FMaybeJustJames"></a>
 </div>
-<div>
+<div class="social-info">
   <a href="https://github.com/MaybeJustJames"><img alt="GitHub User's stars" src="https://img.shields.io/github/stars/MaybeJustJames?label=GitHub&style=social"></a>
 </div>
-<div>
+<div class="social-info">
   <a href="https://gitlab.com/bimmie"><img alt="GitLab stars" src="https://img.shields.io/gitlab/stars/structural-fragment-search/super?label=GitLab&style=social"></a>
 </div>
 
@@ -139,18 +139,18 @@ Member of _Golden Key International Honour Society_ for outstanding achievement.
 
 ## Presentations &amp; Talks
 
-`VIB course: Gentle Hands-On Introduction to Python Programming (2022)`
-**How to setup a development environment for Python**
+`VIB`
+**How to setup a development environment for Python** (2022)
 [YouTube](https://youtu.be/vLRAUHpeHtM)
 
-`Internal presentation`
-**Background task execution**
+`VIB`
+**Background task execution** (2021)
 [Slides](https://maybejustjames.github.io/background-tasks-talk)
 
-`European Conference on Computational Biology (2014)`
+`ECCB` (2014)
 **A new statistical framework to assess structural alignment quality using information compression**
 [Slides](https://www.dropbox.com/s/4h3itvwwflvwl0t/Mon7_James_Collier.pdf?dl=0)
 
-`Three Minute Thesis (2013)`
-**Protein Structural Alignment Problem in Biology**
+`Three Minute Thesis`
+**Protein Structural Alignment Problem in Biology** (2013)
 [YouTube](https://youtu.be/h0BY3lcEFKQ)
