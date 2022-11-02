@@ -59,7 +59,7 @@ __Honours Degree of the Bachelor of Computer Science, Monash University, Clayton
 `2008-2010`
 __Bachelor of Science, Monash University, Clayton, Australia__
 
-## Technical Experience
+## Technologies
 
 `Languages`
 **[Purescript](https://www.purescript.org)**, **[Elm](https://elm-lang.org)**, **[Haskell](https://www.haskell.org)**, **[Rust](https://www.rust-lang.org)**, **[Javascript](http://www.jsfuck.com/)**, **[Typescript](https://www.typescriptlang.org)**, **[SQL](https://www.iso.org/standard/63555.html)**, **[C](https://www.open-std.org/jtc1/sc22/wg14/)**, **[Python](https://www.python.org)**, **[Emacs Lisp](https://www.gnu.org/software/emacs)**, **[Common Lisp](http://clhs.lisp.se)**, **[C++](https://isocpp.org)**, **[Java](https://openjdk.org)**
@@ -89,7 +89,7 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 _Vice-Chancellors Commendation For PhD Thesis Excellence_ by Monash University.
 
 `2016`
-Recommended for _"Best Thesis"_ award by external thesis examiner, Prof. Anna Tramontano.
+Recommended for _"Best Thesis"_ award by external thesis examiner, [Prof. Anna Tramontano](https://en.wikipedia.org/wiki/Anna_Tramontano).
 
 `2013`
 _Victorian Life Sciences Supercomputing Initiative_ (VLSCI) Travel Grant.
