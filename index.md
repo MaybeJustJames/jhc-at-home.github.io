@@ -6,7 +6,18 @@ title: James Collier Résumé
 Software Engineer.
 
 <div id="webaddress">
-<a href="james@thecolliers.xyz">james@thecolliers.xyz</a>
+    <span>
+        <a href="james@thecolliers.xyz">james@thecolliers.xyz</a>
+    </span>
+    <span>
+        <img alt="Twitter" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2FMaybeJustJames">
+    </span>
+    <span>
+        <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/MaybeJustJames?label=GitHub&style=social">
+    </span>
+    <span>
+        <img alt="GitLab stars" src="https://img.shields.io/gitlab/stars/structural-fragment-search/super?label=GitLab&style=social">
+    </span>
 </div>
 
 
@@ -16,7 +27,9 @@ Reliable systems, functional programming, software engineering, scientific compu
 
 ## Experience
 
-`2019-now`
+10 years of professional software engineering.
+
+`2019-current`
 __Flemish Institute of Biotechnology, Gent, Belgium__
 Bioinformatics Tool Developer
 
@@ -26,6 +39,7 @@ Embedded Software Engineer
 
 `2018`
 __IMec Connected Health Solutions, Eindhoven, The Netherlands__
+Embedded Software Engineer
 
 `2017-2018`
 __Topic Embedded Systems, Best, The Netherlands__
@@ -33,12 +47,13 @@ Embedded Software Engineer
 
 `2012-2015`
 __Monash University, Clayton, Australia__
+Software Engineer
 
 
 ## Education
 
 `2012-2016`
-__Doctor of Philosophy, Monash University, Clayton, Australia__
+__Doctor of Philosophy, Monash University, Clayton, Australia ([Thesis](https://doi.org/10.4225/03/58b79813d9110))__
 
 `2011`
 __Honours Degree of the Bachelor of Computer Science, Monash University, Clayton, Australia__
@@ -49,13 +64,13 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 ## Technical Experience
 
 `Languages`
-**Purescript**, **Elm**, **Haskell**, **Rust**, **Javascript**, **Typescript**, **SQL**, **C**, **C++**, **Java**, **Python**, **Emacs Lisp**, **Common Lisp**
+**[Purescript](https://www.purescript.org)**, **[Elm](https://elm-lang.org)**, **[Haskell](https://www.haskell.org)**, **[Rust](https://www.rust-lang.org)**, **[Javascript](http://www.jsfuck.com/)**, **[Typescript](https://www.typescriptlang.org)**, **[SQL](https://www.iso.org/standard/63555.html)**, **[C](https://www.open-std.org/jtc1/sc22/wg14/)**, **[Python](https://www.python.org)**, **[Emacs Lisp](https://www.gnu.org/software/emacs)**, **[Common Lisp](http://clhs.lisp.se)**, **[C++](https://isocpp.org)**, **[Java](https://openjdk.org)**
 
 `Tools`
-**Emacs**, **Spago**, **Purs**, **Cabal**, **GHC**, **Purs-Tidy**, **Stylish-Haskell**, **Nix**, **Poetry**, **Node.js**, **Slick**, **Cargo**, **npm**
+**[Emacs](https://www.gnu.org/software/emacs)**, **[Spago](https://github.com/purescript/spago)**, **[Cargo](https://doc.rust-lang.org/cargo)**, **[Cabal](https://www.haskell.org/cabal)**, **[Nix](https://nixos.org)**, **[Poetry](https://python-poetry.org)**, **[npm](https://www.npmjs.com)**
 
-`Frameworks`
-**React**, **FastAPI**, **PyTest**, **Redux**, **Servant**
+`Frameworks | Libraries`
+**[React](https://reactjs.org)**, **[FastAPI](https://fastapi.tiangolo.com)**, **[PyTest](https://docs.pytest.org)**, **[Hadgehog](https://hedgehog.qa)**, **[Hypothesis](https://hypothesis.works)**, **[Redux](https://redux.js.org)**, **[Servant](https://www.servant.dev)**, **[Rel8](https://rel8.readthedocs.io)**, **[SQLAlchemy](https://www.sqlalchemy.org)**, 
 
 ## Software
 
@@ -67,6 +82,8 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 * [SCope](https://github.com/aertslab/SCope): web app to visualise single-cell transcriptomics data. Backend written in [Python](https://python.org/) using [FastAPI](https://fastapi.tiangolo.com/) and [SQLAlchemy](https://www.sqlalchemy.org/). Frontend written in [Typescript](https://www.typescriptlang.org/) using [React](https://reactjs.org/), [Redux](https://redux.js.org/), and [Redux-Saga](https://redux-saga.js.org/).
 * [Falcon-Client](https://bitbucket.org/kloostermannerflab/falcon-swr-client): GUI Client application for [Falcon](https://bitbucket.org/kloostermannerflab/falcon-core) closed-loop neuroscience platform. Uses [Rust](https://www.rust-lang.org/) to communicate with Falcon over [ZeroMQ](https://zeromq.org/). Uses [Elm](https://elm-lang.org/) to display a web GUI interface with real time plotting.
 * [MMLigner](https://lcb.infotech.monash.edu/mmligner/): align protein structures based on [Minimum Message Length](http://allisons.org/ll/MML/) inference. Written in C++.
+* [Golden Gate Assembler](https://github.com/vibbits/GGW-Elm): Store and organise genetic products for robotic vector assembly. Simulate genetic vector assembly. Written in Elm and Python.
+* [Acinetobase](https://github.com/vibbits/acinetobase-static): Static site generated from data in a CSV table and images. Generator written in Haskell.
 
 ## Awards
 
@@ -122,3 +139,20 @@ Membership to the _Golden Key International Honour Society_ for outstanding achi
 [10.1093/nar/gks436](https://doi.org/10.1093/nar/gks436)
 
 
+## Presentations &amp; Talks
+
+`VIB course: Gentle Hands-On Introduction to Python Programming (2022)`
+**How to setup a development environment for Python**
+[YouTube](https://youtu.be/vLRAUHpeHtM)
+
+`Internal presentation`
+**Background task execution**
+[Slides](https://maybejustjames.github.io/background-tasks-talk)
+
+`European Conference on Computational Biology (2014)`
+**A new statistical framework to assess structural alignment quality using information compression**
+[Slides](https://www.dropbox.com/s/4h3itvwwflvwl0t/Mon7_James_Collier.pdf?dl=0)
+
+`Three Minute Thesis (2013)`
+**Protein Structural Alignment Problem in Biology**
+[YouTube](https://youtu.be/h0BY3lcEFKQ)
