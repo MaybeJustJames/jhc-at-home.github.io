@@ -147,8 +147,8 @@ Member of _Golden Key International Honour Society_ for outstanding achievement.
 **Background task execution** (2021)
 [Slides](https://maybejustjames.github.io/background-tasks-talk)
 
-`ECCB` (2014)
-**A new statistical framework to assess structural alignment quality using information compression**
+`ECCB`
+**A new statistical framework to assess structural alignment quality using information compression** (2014)
 [Slides](https://www.dropbox.com/s/4h3itvwwflvwl0t/Mon7_James_Collier.pdf?dl=0)
 
 `Three Minute Thesis`
