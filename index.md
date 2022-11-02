@@ -30,22 +30,29 @@ Reliable systems, functional programming, software engineering, scientific compu
 `2019-current`
 __Flemish Institute of Biotechnology, Gent, Belgium__
 Bioinformatics Tool Developer
+* Improved development process.
+* Responsible for team building several projects.
 
 `2019`
 __Topic Healthcare Solutions, Best, The Netherlands__
 Embedded Software Engineer
+* Improved robustness of ML data sources.
 
 `2018`
 __IMec Connected Health Solutions, Eindhoven, The Netherlands__
 Embedded Software Engineer
+* Improved test time and quality for major smartwatch vendor.
 
 `2017-2018`
 __Topic Embedded Systems, Best, The Netherlands__
 Embedded Software Engineer
+* Designed and built data streaming protocol.
+* Implemented fast software image (de)compression.
 
-`2012-2015`
+`2010-2015`
 __Monash University, Clayton, Australia__
 Software Engineer
+* Built software for AI and training.
 
 
 ## Education
