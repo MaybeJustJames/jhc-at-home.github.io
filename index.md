@@ -68,7 +68,7 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 **[Emacs](https://www.gnu.org/software/emacs)**, **[Spago](https://github.com/purescript/spago)**, **[Cargo](https://doc.rust-lang.org/cargo)**, **[Cabal](https://www.haskell.org/cabal)**, **[Nix](https://nixos.org)**, **[Poetry](https://python-poetry.org)**, **[npm](https://www.npmjs.com)**
 
 `Frameworks | Libraries`
-**[React](https://reactjs.org)**, **[FastAPI](https://fastapi.tiangolo.com)**, **[PyTest](https://docs.pytest.org)**, **[Hadgehog](https://hedgehog.qa)**, **[Hypothesis](https://hypothesis.works)**, **[Redux](https://redux.js.org)**, **[Servant](https://www.servant.dev)**, **[Rel8](https://rel8.readthedocs.io)**, **[SQLAlchemy](https://www.sqlalchemy.org)**, 
+**[React](https://reactjs.org)**, **[FastAPI](https://fastapi.tiangolo.com)**, **[PyTest](https://docs.pytest.org)**, **[Hedgehog](https://hedgehog.qa)**, **[Hypothesis](https://hypothesis.works)**, **[Redux](https://redux.js.org)**, **[Servant](https://www.servant.dev)**, **[Rel8](https://rel8.readthedocs.io)**, **[SQLAlchemy](https://www.sqlalchemy.org)**, 
 
 ## Software
 
