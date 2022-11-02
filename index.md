@@ -25,7 +25,7 @@ Reliable systems, functional programming, software engineering, scientific compu
 
 ## Experience
 
-10 years of professional software engineering.
+More than 10 years of professional software engineering.
 
 `2019-current`
 __Flemish Institute of Biotechnology, Gent, Belgium__
