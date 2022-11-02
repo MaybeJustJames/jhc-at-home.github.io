@@ -6,18 +6,16 @@ title: James Collier Résumé
 Software Engineer.
 
 <div id="webaddress">
-    <span>
-        <a href="james@thecolliers.xyz">james@thecolliers.xyz</a>
-    </span>
-    <span>
-        <img alt="Twitter" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2FMaybeJustJames">
-    </span>
-    <span>
-        <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/MaybeJustJames?label=GitHub&style=social">
-    </span>
-    <span>
-        <img alt="GitLab stars" src="https://img.shields.io/gitlab/stars/structural-fragment-search/super?label=GitLab&style=social">
-    </span>
+  <a href="james@thecolliers.xyz">james@thecolliers.xyz</a>
+</div>
+<div>
+  <a href="https://twitter.com/MaybeJustJames"><img alt="Twitter" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2FMaybeJustJames"></a>
+</div>
+<div>
+  <a href="https://github.com/MaybeJustJames"><img alt="GitHub User's stars" src="https://img.shields.io/github/stars/MaybeJustJames?label=GitHub&style=social"></a>
+</div>
+<div>
+  <a href="https://gitlab.com/bimmie"><img alt="GitLab stars" src="https://img.shields.io/gitlab/stars/structural-fragment-search/super?label=GitLab&style=social"></a>
 </div>
 
 
@@ -94,19 +92,19 @@ _Vice-Chancellors Commendation For PhD Thesis Excellence_ by Monash University.
 Recommended for _"Best Thesis"_ award by external thesis examiner, Prof. Anna Tramontano.
 
 `2013`
-Recipient of _Victorian Life Sciences Supercomputing Initiative_ (VLSCI) Travel Grant.
+_Victorian Life Sciences Supercomputing Initiative_ (VLSCI) Travel Grant.
 
 `2012-2016`
-Recipient of _Australian Postgraduate Award_ (APA) Postgraduate scholarship.
+_Australian Postgraduate Award_ (APA) Postgraduate scholarship.
 
 `2012-2016`
-Recipient of _National ICT Australia_ (NICTA) Postgraduate scholarship.
+_National ICT Australia_ (NICTA) Postgraduate scholarship.
 
 `2009`
-Received an _Undergraduate Vacation Scholarship_.
+_Undergraduate Vacation Scholarship_.
 
 `2008`
-Membership to the _Golden Key International Honour Society_ for outstanding achievement.
+Member of _Golden Key International Honour Society_ for outstanding achievement.
 
 
 ## Publications
@@ -114,28 +112,28 @@ Membership to the _Golden Key International Honour Society_ for outstanding achi
 `In correspondence`
 **Acinetobase: the comprehensive database and repository of Acinetobacter strains.**
 
-`2022-01-03 in Bioinformatics`
-**Unipept Visualizations: an interactive visualization library for biological data**
+`Bioinformatics`
+**Unipept Visualizations: an interactive visualization library for biological data** (2022)
 [10.1093/bioinformatics/btab590](https://doi.org/10.1093/bioinformatics/btab590)
 
-`2021-05-17 in Nature Communications`
-**AutoSpill is a principled framework that simplifies the analysis of multichromatic flow cytometry data**
+`Nature Communications`
+**AutoSpill is a principled framework that simplifies the analysis of multichromatic flow cytometry data** (2021)
 [10.1038/s41467-021-23126-8](https://doi.org/10.1038/s41467-021-23126-8)
 
-`2017-01-08 in Bioinformatics`
-**Statistical inference of protein structural alignments using information and compression**
+`Bioinformatics`
+**Statistical inference of protein structural alignments using information and compression** (2017)
 [10.1093/bioinformatics/btw757](https://doi.org/10.1093/bioinformatics/btw757)
 
-`2016-06-02 in Journal of Computational Biology`
-**On Sufficient Statistics of Least-Squares Superposition of Vector Sets**
+`Journal of Computational Biology`
+**On Sufficient Statistics of Least-Squares Superposition of Vector Sets** (2016)
 [10.1089/cmb.2014.0154](https://doi.org/10.1089/cmb.2014.0154)
 
-`2014-08 in Bioinformatics`
-**A new statistical framework to assess structural alignment quality using information compression**
+`Bioinformatics`
+**A new statistical framework to assess structural alignment quality using information compression** (2014)
 [10.1093/bioinformatics/btu460](https://doi.org/10.1093/bioinformatics/btu460)
 
-`2012-05 in Nucleic Acids Research`
-**Super: a web server to rapidly screen superposable oligopeptide fragments from the protein data bank**
+`Nucleic Acids Research`
+**Super: a web server to rapidly screen superposable oligopeptide fragments from the protein data bank** (2012)
 [10.1093/nar/gks436](https://doi.org/10.1093/nar/gks436)
 
 
