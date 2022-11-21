@@ -9,7 +9,7 @@ Software Engineer.
   <a href="james@thecolliers.xyz">james@thecolliers.xyz</a>
 </div>
 <div class="social-info">
-  <a href="https://aus.social/@MaybeJustJames"><img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109257440004957974?domain=https%3A%2F%2Faus.social&label=Mastodon&style=social"></a>
+  <a rel="me" href="https://aus.social/@MaybeJustJames"><img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109257440004957974?domain=https%3A%2F%2Faus.social&label=Mastodon&style=social"></a>
 </div>
 <div class="social-info">
   <a href="https://github.com/MaybeJustJames"><img alt="GitHub User's stars" src="https://img.shields.io/github/stars/MaybeJustJames?label=GitHub&style=social"></a>
