@@ -116,8 +116,9 @@ Member of _Golden Key International Honour Society_ for outstanding achievement.
 
 ## Publications
 
-`In correspondence`
-**Acinetobase: the comprehensive database and repository of Acinetobacter strains.**
+`Database`
+**Acinetobase: the comprehensive database and repository of Acinetobacter strains** (2022)
+[10.1093/database/baac099](https://doi.org/10.1093/database/baac099)
 
 `Bioinformatics`
 **Unipept Visualizations: an interactive visualization library for biological data** (2022)
