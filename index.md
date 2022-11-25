@@ -17,6 +17,9 @@ Software Engineer.
 <div class="social-info">
   <a href="https://gitlab.com/bimmie"><img alt="GitLab stars" src="https://img.shields.io/gitlab/stars/structural-fragment-search/super?label=GitLab&style=social"></a>
 </div>
+<div class="social-info">
+  <a href="https://orcid.org/0000-0002-0020-421X"><img alt="ORCiD Profile" src="https://img.shields.io/badge/orcid-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
+</div>
 
 
 ## Interests
