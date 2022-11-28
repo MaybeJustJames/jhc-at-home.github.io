@@ -72,7 +72,7 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 ## Technologies
 
 `Languages`
-**[Purescript](https://www.purescript.org)**, **[Elm](https://elm-lang.org)**, **[Haskell](https://www.haskell.org)**, **[Rust](https://www.rust-lang.org)**, **[Javascript](http://www.jsfuck.com/)**, **[Typescript](https://www.typescriptlang.org)**, **[SQL](https://www.iso.org/standard/63555.html)**, **[C](https://www.open-std.org/jtc1/sc22/wg14/)**, **[Python](https://www.python.org)**, **[Emacs Lisp](https://www.gnu.org/software/emacs)**, **[Common Lisp](http://clhs.lisp.se)**, **[C++](https://isocpp.org)**, **[Java](https://openjdk.org)**
+**[Purescript](https://www.purescript.org)**, **[Elm](https://elm-lang.org)**, **[Haskell](https://www.haskell.org)**, **[Rust](https://www.rust-lang.org)**, **[Javascript](http://www.jsfuck.com/)**, **[Typescript](https://www.typescriptlang.org)**, **[SQL](https://www.iso.org/standard/63555.html)**, **[C](https://www.open-std.org/jtc1/sc22/wg14/)**, **[Python](https://www.python.org)**, **[Emacs Lisp](https://www.gnu.org/software/emacs)**, **[Common Lisp](http://clhs.lisp.se)**, **[Clojure](https://clojure.org/)**, **[C++](https://isocpp.org)**, **[Java](https://openjdk.org)**
 
 `Tools`
 **[Emacs](https://www.gnu.org/software/emacs)**, **[Spago](https://github.com/purescript/spago)**, **[Cargo](https://doc.rust-lang.org/cargo)**, **[Cabal](https://www.haskell.org/cabal)**, **[Nix](https://nixos.org)**, **[Poetry](https://python-poetry.org)**, **[npm](https://www.npmjs.com)**
