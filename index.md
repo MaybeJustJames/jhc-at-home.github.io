@@ -29,7 +29,7 @@ Software Engineer.
 
 ## Interests
 
-Reliable systems, functional programming, software engineering, scientific computing, open-source software.
+Reliable systems, functional programming, software engineering, scientific computing, open-source software, full-stack web development.
 
 ## Experience
 
