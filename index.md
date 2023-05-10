@@ -21,8 +21,10 @@ Software Engineer.
   <a href="https://orcid.org/0000-0002-0020-421X"><img alt="ORCiD Profile" src="https://img.shields.io/badge/orcid-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
 </div>
 <div class="social-info">
-  <a href="https://www.linkedin.com/in/james-collier-07327095/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-</a>
+  <a href="https://www.linkedin.com/in/james-collier-07327095/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</div>
 
 
 ## Interests
