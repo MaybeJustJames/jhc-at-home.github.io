@@ -20,6 +20,9 @@ Software Engineer.
 <div class="social-info">
   <a href="https://orcid.org/0000-0002-0020-421X"><img alt="ORCiD Profile" src="https://img.shields.io/badge/orcid-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
 </div>
+<div class="social-info">
+  <a href="https://www.linkedin.com/in/james-collier-07327095/"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</a>
 
 
 ## Interests
@@ -78,7 +81,7 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 **[Emacs](https://www.gnu.org/software/emacs)**, **[Spago](https://github.com/purescript/spago)**, **[Cargo](https://doc.rust-lang.org/cargo)**, **[Cabal](https://www.haskell.org/cabal)**, **[Nix](https://nixos.org)**, **[Poetry](https://python-poetry.org)**, **[npm](https://www.npmjs.com)**
 
 `Frameworks | Libraries`
-**[React](https://reactjs.org)**, **[FastAPI](https://fastapi.tiangolo.com)**, **[PyTest](https://docs.pytest.org)**, **[Hedgehog](https://hedgehog.qa)**, **[Hypothesis](https://hypothesis.works)**, **[Redux](https://redux.js.org)**, **[Servant](https://www.servant.dev)**, **[Rel8](https://rel8.readthedocs.io)**, **[SQLAlchemy](https://www.sqlalchemy.org)**, 
+**[React](https://react.dev)**, **[FastAPI](https://fastapi.tiangolo.com)**, **[PyTest](https://docs.pytest.org)**, **[Hedgehog](https://hedgehog.qa)**, **[Hypothesis](https://hypothesis.works)**, **[Redux](https://redux.js.org)**, **[Servant](https://www.servant.dev)**, **[Rel8](https://rel8.readthedocs.io)**, **[SQLAlchemy](https://www.sqlalchemy.org)**, 
 
 ## Software
 
@@ -87,11 +90,12 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 * [Phylio](https://github.com/vibbits/phylio): [Purescript](https://purescript.org) library for parsing phylogenetic trees.
 * [VIB-CSS](https://github.com/vibbits/vib-css): CSS library for styling websites and apps for the Flemish Institute for Biotechnology.
 * [Super](https://gitlab.com/structural-fragment-search/super): 3D pattern matching on proteins written in C, also a [Python wrapper library](https://pypi.org/project/pysuper/).
-* [SCope](https://github.com/aertslab/SCope): web app to visualise single-cell transcriptomics data. Backend written in [Python](https://python.org/) using [FastAPI](https://fastapi.tiangolo.com/) and [SQLAlchemy](https://www.sqlalchemy.org/). Frontend written in [Typescript](https://www.typescriptlang.org/) using [React](https://reactjs.org/), [Redux](https://redux.js.org/), and [Redux-Saga](https://redux-saga.js.org/).
-* [Falcon-Client](https://bitbucket.org/kloostermannerflab/falcon-swr-client): GUI Client application for [Falcon](https://bitbucket.org/kloostermannerflab/falcon-core) closed-loop neuroscience platform. Uses [Rust](https://www.rust-lang.org/) to communicate with Falcon over [ZeroMQ](https://zeromq.org/). Uses [Elm](https://elm-lang.org/) to display a web GUI interface with real time plotting.
+* [SCope](https://github.com/aertslab/SCope): web app to visualise single-cell transcriptomics data. Backend written in [Python](https://python.org/) using [FastAPI](https://fastapi.tiangolo.com/) and [SQLAlchemy](https://www.sqlalchemy.org/). Frontend written in [Typescript](https://www.typescriptlang.org/) using [React](https://react.dev/), [Redux](https://redux.js.org/), and [Redux-Saga](https://redux-saga.js.org/).
+* [Falcon-Client](https://bitbucket.org/kloostermannerflab/falcon-swr-client): GUI Client application for [Falcon](https://bitbucket.org/kloostermannerflab/falcon-core) closed-loop neuroscience platform. Uses [Rust](https://www.rust-lang.org/) to communicate with Falcon over [ZeroMQ](https://zeromq.org/). Uses [Elm](https://elm-lang.org/) to display a web GUI interface with real time plotting using [WebSockets](https://datatracker.ietf.org/doc/html/rfc6455).
 * [MMLigner](https://lcb.infotech.monash.edu/mmligner/): align protein structures based on [Minimum Message Length](http://allisons.org/ll/MML/) inference. Written in C++.
 * [Golden Gate Assembler](https://github.com/vibbits/GGW-Elm): Store and organise genetic products for robotic vector assembly. Simulate genetic vector assembly. Written in Elm and Python.
 * [Acinetobase](https://github.com/vibbits/acinetobase-static): Static site generated from data in a CSV table and images. Generator written in Haskell.
+* [Buzz](https://buzz.vib.be): Real-time student interaction platform featuring polls, Q&A, and quizzes. Using [Python](https://python.org/) and [Typescript]() [React](https://react.dev), [Redux](https://redux.js.org/), [RTK Query](https://redux-toolkit.js.org/rtk-query), and [WebSockets](https://datatracker.ietf.org/doc/html/rfc6455).
 
 ## Awards
 
