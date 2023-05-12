@@ -126,25 +126,25 @@ Member of _Golden Key International Honour Society_ for outstanding achievement.
 ## Publications
 
 
-* **Acinetobase: the comprehensive database and repository of Acinetobacter strains** (2022) Database
+**Acinetobase: the comprehensive database and repository of Acinetobacter strains** (2022) Database
 [10.1093/database/baac099](https://doi.org/10.1093/database/baac099)
 
-* **Unipept Visualizations: an interactive visualization library for biological data** (2022) Bioinformatics
+**Unipept Visualizations: an interactive visualization library for biological data** (2022) Bioinformatics
 [10.1093/bioinformatics/btab590](https://doi.org/10.1093/bioinformatics/btab590)
 
-* **AutoSpill is a principled framework that simplifies the analysis of multichromatic flow cytometry data** (2021) Nature Communications
+**AutoSpill is a principled framework that simplifies the analysis of multichromatic flow cytometry data** (2021) Nature Communications
 [10.1038/s41467-021-23126-8](https://doi.org/10.1038/s41467-021-23126-8)
 
-* **Statistical inference of protein structural alignments using information and compression** (2017) Bioinformatics
+**Statistical inference of protein structural alignments using information and compression** (2017) Bioinformatics
 [10.1093/bioinformatics/btw757](https://doi.org/10.1093/bioinformatics/btw757)
 
-* **On Sufficient Statistics of Least-Squares Superposition of Vector Sets** (2016) Journal of Computational Biology
+**On Sufficient Statistics of Least-Squares Superposition of Vector Sets** (2016) Journal of Computational Biology
 [10.1089/cmb.2014.0154](https://doi.org/10.1089/cmb.2014.0154)
 
-* **A new statistical framework to assess structural alignment quality using information compression** (2014) Bioinformatics
+**A new statistical framework to assess structural alignment quality using information compression** (2014) Bioinformatics
 [10.1093/bioinformatics/btu460](https://doi.org/10.1093/bioinformatics/btu460)
 
-* **Super: a web server to rapidly screen superposable oligopeptide fragments from the protein data bank** (2012) Nucleic Acids Research
+**Super: a web server to rapidly screen superposable oligopeptide fragments from the protein data bank** (2012) Nucleic Acids Research
 [10.1093/nar/gks436](https://doi.org/10.1093/nar/gks436)
 
 
