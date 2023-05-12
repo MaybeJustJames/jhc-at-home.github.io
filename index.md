@@ -111,8 +111,9 @@ GUI Client application for [Falcon](https://bitbucket.org/kloostermannerflab/fal
 <code><a href="https://lcb.infotech.monash.edu/mmligner/">MMLigner</a></code>
 Align protein structures in 3D space using [Minimum Message Length](http://allisons.org/ll/MML/) inference. Written in C++.
 
-<code><a href="https://github.com/vibbits/GGW-Elm">Golden Gate Assembler</a></code<
+<code><a href="https://github.com/vibbits/GGW-Elm">Golden Gate Assembler</a></code>
 Store and organise genetic products for robotic vector assembly. Simulate genetic vector assembly. Written in Elm and Python.
+
 <code><a href="https://github.com/vibbits/acinetobase-static">Acinetobase</a></code>
 Static site generated from data in a CSV table and images. Generator written in Haskell.
 
