@@ -87,36 +87,36 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 
 ## Software
 
-`[Zephyr](https://github.com/MaybeJustJames/zephyr)`
+<code><a href="https://github.com/MaybeJustJames/zephyr">Zephyr</a></code>
 Dead code elimination tool for [Purescript](https://purescript.org/) written in [Haskell](https://haskell.org/).
 
-`[yaml](https://github.com/MaybeJustJames/yaml)`
+<code><a href="https://github.com/MaybeJustJames/yaml">yaml</a></code>
 YAML encoding/decoding library for [Elm](https://elm-lang.org/).
 
-`[Phylio](https://github.com/vibbits/phylio)`
+<code><a href="https://github.com/vibbits/phylio">Phylio</a></code>
 [Purescript](https://purescript.org) library for parsing phylogenetic trees.
 
-`[VIB-CSS](https://github.com/vibbits/vib-css)`
+<code><a href="https://github.com/vibbits/vib-css">VIB-CSS</a></code>
 CSS library for styling websites and apps for the Flemish Institute for Biotechnology.
 
-`[Super](https://gitlab.com/structural-fragment-search/super)`
+<code><a href="https://gitlab.com/structural-fragment-search/super">Super</a></code>
 3D pattern matching on proteins written in C, also a [Python wrapper library](https://pypi.org/project/pysuper/).
 
-`[SCope](https://github.com/aertslab/SCope)`
+<code><a href="https://github.com/aertslab/SCope">SCope</a></code>
 Web app to visualise single-cell transcriptomics data. Backend written in [Python](https://python.org/) using [FastAPI](https://fastapi.tiangolo.com/) and [SQLAlchemy](https://www.sqlalchemy.org/). Frontend written in [Typescript](https://www.typescriptlang.org/) using [React](https://react.dev/), [Redux](https://redux.js.org/), and [Redux-Saga](https://redux-saga.js.org/).
 
-`[Falcon-Client](https://bitbucket.org/kloostermannerflab/falcon-swr-client)`
+<code><a href="https://bitbucket.org/kloostermannerflab/falcon-swr-client">Falcon-client</a></code>
 GUI Client application for [Falcon](https://bitbucket.org/kloostermannerflab/falcon-core) closed-loop neuroscience platform. Uses [Rust](https://www.rust-lang.org/) to communicate with Falcon over [ZeroMQ](https://zeromq.org/). Uses [Elm](https://elm-lang.org/) to display a web GUI interface with real time plotting using [WebSockets](https://datatracker.ietf.org/doc/html/rfc6455).
 
-`[MMLigner](https://lcb.infotech.monash.edu/mmligner/)`
+<code><a href="https://lcb.infotech.monash.edu/mmligner/">MMLigner</a></code>
 Align protein structures in 3D space using [Minimum Message Length](http://allisons.org/ll/MML/) inference. Written in C++.
 
-`[Golden Gate Assembler](https://github.com/vibbits/GGW-Elm)`
+<code><a href="https://github.com/vibbits/GGW-Elm">Golden Gate Assembler</a></code<
 Store and organise genetic products for robotic vector assembly. Simulate genetic vector assembly. Written in Elm and Python.
-`[Acinetobase](https://github.com/vibbits/acinetobase-static)`
+<code><a href="https://github.com/vibbits/acinetobase-static">Acinetobase</a></code>
 Static site generated from data in a CSV table and images. Generator written in Haskell.
 
-`[Buzz](https://buzz.vib.be)`
+<code><a href="https://buzz.vib.be">Buzz</a></code>
 Real-time student interaction platform featuring polls, Q&A, and quizzes. Using [Python](https://python.org/) and [Typescript]() [React](https://react.dev), [Redux](https://redux.js.org/), [RTK Query](https://redux-toolkit.js.org/rtk-query), and [WebSockets](https://datatracker.ietf.org/doc/html/rfc6455).
 
 ## Awards
