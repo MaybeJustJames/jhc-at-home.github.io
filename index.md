@@ -77,13 +77,13 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 ## Technologies
 
 `Languages`
-**[Purescript](https://www.purescript.org)**, **[Elm](https://elm-lang.org)**, **[Haskell](https://www.haskell.org)**, **[Rust](https://www.rust-lang.org)**, **[Javascript](http://www.jsfuck.com/)**, **[Typescript](https://www.typescriptlang.org)**, **[SQL](https://www.iso.org/standard/63555.html)**, **[C](https://www.open-std.org/jtc1/sc22/wg14/)**, **[Python](https://www.python.org)**, **[Emacs Lisp](https://www.gnu.org/software/emacs)**, **[Common Lisp](http://clhs.lisp.se)**, **[Clojure](https://clojure.org/)**, **[C++](https://isocpp.org)**, **[Java](https://openjdk.org)**
+**[Purescript](https://github.com/vibbits/phylio)**, **[Elm](https://github.com/MaybeJustJames/yaml)**, **[Haskell](https://github.com/MaybeJustJames/zephyr)**, **[Rust](https://bitbucket.org/kloostermannerflab/falcon-swr-client/)**, **[Javascript]()**, **[Typescript](https://github.com/aertslab/SCope/tree/develop)**, **[SQL](https://www.iso.org/standard/63555.html)**, **[C](https://gitlab.com/structural-fragment-search/super)**, **[Python](https://github.com/vibbits/gentle-hands-on-python)**, **[Emacs Lisp](https://github.com/MaybeJustJames/james-configfiles)**, **Common Lisp**, **[Clojure](https://github.com/vibbits/herodotus)**, **[C++](https://lcb.infotech.monash.edu.au/mmligner/)**, **Java**, **[CSS](https://github.com/vibbits/vib-css)**
 
 `Tools`
-**[Emacs](https://www.gnu.org/software/emacs)**, **[Spago](https://github.com/purescript/spago)**, **[Cargo](https://doc.rust-lang.org/cargo)**, **[Cabal](https://www.haskell.org/cabal)**, **[Nix](https://nixos.org)**, **[Poetry](https://python-poetry.org)**, **[npm](https://www.npmjs.com)**
+**[Emacs](https://www.gnu.org/software/emacs)**, **[Spago](https://github.com/vibbits/phylio)**, **[Cargo](https://bitbucket.org/kloostermannerflab/falcon-swr-client/)**, **[Cabal](https://github.com/MaybeJustJames/zephyr)**, **[Nix](https://github.com/vibbits/acinetobase-static)**, **[Poetry](https://github.com/vibbits/GGW-Elm)**, **[npm](https://github.com/vibbits/react-2d-molecule)**, **[GNU/Linux]()**
 
-`Frameworks | Libraries`
-**[React](https://react.dev)**, **[FastAPI](https://fastapi.tiangolo.com)**, **[PyTest](https://docs.pytest.org)**, **[Hedgehog](https://hedgehog.qa)**, **[Hypothesis](https://hypothesis.works)**, **[Redux](https://redux.js.org)**, **[Servant](https://www.servant.dev)**, **[Rel8](https://rel8.readthedocs.io)**, **[SQLAlchemy](https://www.sqlalchemy.org)**, 
+`Libraries`
+**[React](https://github.com/vibbits/buzz)**, **[FastAPI](https://github.com/vibbits/buzz)**, **[PyTest](https://github.com/aertslab/SCope/tree/develop)**, **Hedgehog**, **[Hypothesis](https://github.com/aertslab/SCope/tree/develop)**, **[Redux](https://github.com/vibbits/buzz)**, **Servant**, **Rel8**, **[SQLAlchemy](https://github.com/vibbits/buzz)**
 
 ## Software
 
@@ -125,32 +125,26 @@ Member of _Golden Key International Honour Society_ for outstanding achievement.
 
 ## Publications
 
-`Database`
-**Acinetobase: the comprehensive database and repository of Acinetobacter strains** (2022)
+
+* **Acinetobase: the comprehensive database and repository of Acinetobacter strains** (2022) Database
 [10.1093/database/baac099](https://doi.org/10.1093/database/baac099)
 
-`Bioinformatics`
-**Unipept Visualizations: an interactive visualization library for biological data** (2022)
+* **Unipept Visualizations: an interactive visualization library for biological data** (2022) Bioinformatics
 [10.1093/bioinformatics/btab590](https://doi.org/10.1093/bioinformatics/btab590)
 
-`Nature Communications`
-**AutoSpill is a principled framework that simplifies the analysis of multichromatic flow cytometry data** (2021)
+* **AutoSpill is a principled framework that simplifies the analysis of multichromatic flow cytometry data** (2021) Nature Communications
 [10.1038/s41467-021-23126-8](https://doi.org/10.1038/s41467-021-23126-8)
 
-`Bioinformatics`
-**Statistical inference of protein structural alignments using information and compression** (2017)
+* **Statistical inference of protein structural alignments using information and compression** (2017) Bioinformatics
 [10.1093/bioinformatics/btw757](https://doi.org/10.1093/bioinformatics/btw757)
 
-`Journal of Computational Biology`
-**On Sufficient Statistics of Least-Squares Superposition of Vector Sets** (2016)
+* **On Sufficient Statistics of Least-Squares Superposition of Vector Sets** (2016) Journal of Computational Biology
 [10.1089/cmb.2014.0154](https://doi.org/10.1089/cmb.2014.0154)
 
-`Bioinformatics`
-**A new statistical framework to assess structural alignment quality using information compression** (2014)
+* **A new statistical framework to assess structural alignment quality using information compression** (2014) Bioinformatics
 [10.1093/bioinformatics/btu460](https://doi.org/10.1093/bioinformatics/btu460)
 
-`Nucleic Acids Research`
-**Super: a web server to rapidly screen superposable oligopeptide fragments from the protein data bank** (2012)
+* **Super: a web server to rapidly screen superposable oligopeptide fragments from the protein data bank** (2012) Nucleic Acids Research
 [10.1093/nar/gks436](https://doi.org/10.1093/nar/gks436)
 
 
