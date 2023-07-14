@@ -80,7 +80,7 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 **[Purescript](https://github.com/vibbits/phylio)**, **[Elm](https://github.com/MaybeJustJames/yaml)**, **[Haskell](https://github.com/MaybeJustJames/zephyr)**, **[Rust](https://bitbucket.org/kloostermannerflab/falcon-swr-client/)**, **[Javascript]()**, **[Typescript](https://github.com/aertslab/SCope/tree/develop)**, **[SQL](https://www.iso.org/standard/63555.html)**, **[C](https://gitlab.com/structural-fragment-search/super)**, **[Python](https://github.com/vibbits/gentle-hands-on-python)**, **[Emacs Lisp](https://github.com/MaybeJustJames/james-configfiles)**, **Common Lisp**, **[Clojure](https://github.com/vibbits/herodotus)**, **[C++](https://lcb.infotech.monash.edu.au/mmligner/)**, **Java**, **[CSS](https://github.com/vibbits/vib-css)**
 
 `Tools`
-**Git**, **[Emacs](https://www.gnu.org/software/emacs)**, **[Spago](https://github.com/vibbits/phylio)**, **[Cargo](https://bitbucket.org/kloostermannerflab/falcon-swr-client/)**, **[Cabal](https://github.com/MaybeJustJames/zephyr)**, **[Nix](https://github.com/vibbits/acinetobase-static)**, **[Poetry](https://github.com/vibbits/GGW-Elm)**, **[npm](https://github.com/vibbits/react-2d-molecule)**, **GNU/Linux**
+**Git**, **[Docker]()**, **[Emacs](https://www.gnu.org/software/emacs)**, **[Spago](https://github.com/vibbits/phylio)**, **[Cargo](https://bitbucket.org/kloostermannerflab/falcon-swr-client/)**, **[Cabal](https://github.com/MaybeJustJames/zephyr)**, **[Nix](https://github.com/vibbits/acinetobase-static)**, **[Poetry](https://github.com/vibbits/GGW-Elm)**, **[npm](https://github.com/vibbits/react-2d-molecule)**, **Kubernetes**, **GNU/Linux**
 
 `Libraries`
 **[React](https://github.com/vibbits/buzz)**, **[FastAPI](https://github.com/vibbits/buzz)**, **[PyTest](https://github.com/aertslab/SCope/tree/develop)**, **Hedgehog**, **[Hypothesis](https://github.com/aertslab/SCope/tree/develop)**, **[Redux](https://github.com/vibbits/buzz)**, **Servant**, **Rel8**, **[SQLAlchemy](https://github.com/vibbits/buzz)**
@@ -118,7 +118,10 @@ Store and organise genetic products for robotic vector assembly. Simulate geneti
 Static site generated from data in a CSV table and images. Generator written in Haskell.
 
 <code><a href="https://buzz.vib.be">Buzz</a></code>
-Real-time student interaction platform featuring polls, Q&A, and quizzes. Using [Python](https://python.org/) and [Typescript]() [React](https://react.dev), [Redux](https://redux.js.org/), [RTK Query](https://redux-toolkit.js.org/rtk-query), and [WebSockets](https://datatracker.ietf.org/doc/html/rfc6455).
+Real-time student interaction platform featuring polls, Q&A, and quizzes. Using [Python](https://python.org/) and [Typescript](https://www.typescriptlang.org/) [React](https://react.dev), [Redux](https://redux.js.org/), [RTK Query](https://redux-toolkit.js.org/rtk-query), and [WebSockets](https://datatracker.ietf.org/doc/html/rfc6455).
+
+<code><a href="https://ionbot.cloud/">ionbot</a></code>
+Commercial proteomics web app for AI driven analysis. Using [Python](https://python.org) and Kubernetes on the backend, Vue on the frontend. I integrated single sign-on with [OpenID Connect](https://openid.net/) and payments with [Stripe](https://stripe.com).
 
 ## Awards
 
