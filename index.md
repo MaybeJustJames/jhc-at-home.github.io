@@ -1,3 +1,4 @@
+
 ---
 layout: cv
 title: James Collier Résumé
@@ -6,7 +7,7 @@ title: James Collier Résumé
 Software Engineer.
 
 <div id="webaddress">
-  <a href="james@thecolliers.xyz">james@thecolliers.xyz</a>
+  <a href="mailto:james@thecolliers.xyz">james@thecolliers.xyz</a>
 </div>
 <div class="social-info">
   <a rel="me" href="https://aus.social/@MaybeJustJames"><img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109257440004957974?domain=https%3A%2F%2Faus.social&label=Mastodon&style=social"></a>
@@ -31,9 +32,14 @@ Software Engineer.
 
 Reliable systems, functional programming, software engineering, scientific computing, open-source software, full-stack web development.
 
-## Experience
+## Bio
 
-More than 10 years of professional software engineering.
+I am a software engineer with over 10 years of professional experience on systems ranging from tiny embedded medical microchips, through to
+web applications and high-performance supercomputers. I grew up in a small town in rural Australia, completed a PhD at Monash University
+applying information compression to the protein structural alignment problem. Now I live in the Netherlands with my lovely wife and three
+children. Currently, I work for VIB Technologies building web applications.
+
+## Experience
 
 `2019-current`
 __Flemish Institute of Biotechnology, Gent, Belgium__
