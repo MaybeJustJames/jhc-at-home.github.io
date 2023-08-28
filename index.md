@@ -5,10 +5,11 @@ title: James Collier Résumé
 # Dr. James Collier
 Software Engineer.
 
+<div id="webaddress">
+  <a href="mailto:james@thecolliers.xyz">james@thecolliers.xyz</a>
+</div>
+
 <div style="display:flex;position:relative;left:33%;margin-top:1em;">
-  <div id="webaddress">
-    <a href="mailto:james@thecolliers.xyz">james@thecolliers.xyz</a>
-  </div>
   <div class="social-info">
     <a rel="me" href="https://aus.social/@MaybeJustJames"><img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109257440004957974?domain=https%3A%2F%2Faus.social&label=Mastodon&style=social"></a>
   </div>
