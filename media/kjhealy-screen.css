@@ -173,9 +173,7 @@ a:hover {
 }
 
 .social-info {
-  margin-top: 1em;
-  position: relative;
-  left: 33%;
+  margin: 1em;
 }
 
 em {

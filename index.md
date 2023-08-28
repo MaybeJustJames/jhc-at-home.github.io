@@ -5,25 +5,27 @@ title: James Collier Résumé
 # Dr. James Collier
 Software Engineer.
 
-<div id="webaddress">
-  <a href="mailto:james@thecolliers.xyz">james@thecolliers.xyz</a>
-</div>
-<div class="social-info">
-  <a rel="me" href="https://aus.social/@MaybeJustJames"><img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109257440004957974?domain=https%3A%2F%2Faus.social&label=Mastodon&style=social"></a>
-</div>
-<div class="social-info">
-  <a href="https://github.com/MaybeJustJames"><img alt="GitHub User's stars" src="https://img.shields.io/github/stars/MaybeJustJames?label=GitHub&style=social"></a>
-</div>
-<div class="social-info">
-  <a href="https://gitlab.com/bimmie"><img alt="GitLab stars" src="https://img.shields.io/gitlab/stars/structural-fragment-search/super?label=GitLab&style=social"></a>
-</div>
-<div class="social-info">
-  <a href="https://orcid.org/0000-0002-0020-421X"><img alt="ORCiD Profile" src="https://img.shields.io/badge/orcid-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
-</div>
-<div class="social-info">
-  <a href="https://www.linkedin.com/in/james-collier-07327095/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
+<div style="display:flex;">
+  <div id="webaddress">
+    <a href="mailto:james@thecolliers.xyz">james@thecolliers.xyz</a>
+  </div>
+  <div class="social-info">
+    <a rel="me" href="https://aus.social/@MaybeJustJames"><img alt="Mastodon Follow" src="https://img.shields.io/mastodon/follow/109257440004957974?domain=https%3A%2F%2Faus.social&label=Mastodon&style=social"></a>
+  </div>
+  <div class="social-info">
+    <a href="https://github.com/MaybeJustJames"><img alt="GitHub User's stars" src="https://img.shields.io/github/stars/MaybeJustJames?label=GitHub&style=social"></a>
+  </div>
+  <div class="social-info">
+    <a href="https://gitlab.com/bimmie"><img alt="GitLab stars" src="https://img.shields.io/gitlab/stars/structural-fragment-search/super?label=GitLab&style=social"></a>
+  </div>
+  <div class="social-info">
+    <a href="https://orcid.org/0000-0002-0020-421X"><img alt="ORCiD Profile" src="https://img.shields.io/badge/orcid-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
+  </div>
+  <div class="social-info">
+    <a href="https://www.linkedin.com/in/james-collier-07327095/">
+      <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+    </a>
+  </div>
 </div>
 
 
