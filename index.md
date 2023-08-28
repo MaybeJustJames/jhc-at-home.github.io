@@ -5,7 +5,7 @@ title: James Collier Résumé
 # Dr. James Collier
 Software Engineer.
 
-<div style="display:flex;">
+<div style="display:flex;position:relative;left:33%;margin-top:1em;">
   <div id="webaddress">
     <a href="mailto:james@thecolliers.xyz">james@thecolliers.xyz</a>
   </div>
