@@ -36,7 +36,7 @@ Reliable systems, functional programming, software engineering, scientific compu
 ## Bio
 
 I am a software engineer with over 10 years of professional experience on systems ranging from tiny embedded medical microchips, through to
-web applications and high-performance supercomputers. I grew up in a small town in rural Australia, completed a PhD at Monash University
+web applications and high-performance supercomputers. I grew up in a small town in rural Australia then completed a PhD at Monash University
 applying information compression to the protein structural alignment problem. Now I live in the Netherlands with my lovely wife and three
 children. Currently, I work for VIB Technologies building web applications.
 
