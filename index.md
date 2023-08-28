@@ -1,4 +1,3 @@
-
 ---
 layout: cv
 title: James Collier Résumé
