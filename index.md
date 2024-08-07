@@ -163,6 +163,10 @@ Member of _Golden Key International Honour Society_ for outstanding achievement.
 
 ## Publications
 
+`2024`
+**A python library for the fast and scalable computation of biologically meaningful individual specific networks** Scientific Reports
+[10.1038/s41598-024-69067-2](https://doi.org/10.1038/s41598-024-69067-2)
+
 `2022`
 **Acinetobase: the comprehensive database and repository of Acinetobacter strains** Database
 [10.1093/database/baac099](https://doi.org/10.1093/database/baac099)
