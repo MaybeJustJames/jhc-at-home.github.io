@@ -104,6 +104,12 @@ YAML encoding/decoding library for [Elm](https://elm-lang.org/).
 <code><a href="https://github.com/vibbits/phylio">Phylio</a></code>
 [Purescript](https://purescript.org) library for parsing phylogenetic trees.
 
+<code><a href="https://github.com/GiadaLalli/JINet">JINet</a></code>
+Run bioinformatics analyses with no installation or setup. Runs Python and R scripts in webassembly in the web browser. Python and Javascript. 
+
+<code><a href="https://github.com/GiadaLalli/ISN-tractor">ISN-Tractor</a></code>
+Python library for inferring Individual Specific Networks. Uses PyTorch.
+
 <code><a href="https://github.com/vibbits/vib-css">VIB-CSS</a></code>
 CSS library for styling websites and apps for the Flemish Institute for Biotechnology.
 
