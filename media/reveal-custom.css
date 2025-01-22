@@ -5,3 +5,11 @@
 .fragment.blur.visible {
     filter: none;
 }
+
+.fragment.rotate {
+    transform: rotate(180deg);
+}
+
+.fragment.rotate.visible {
+    transform: rotate(0deg);
+}
