@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Software Infrastructure</title>
+
+    <link rel="shortcut icon" type="image/gif" href="/media/favicon.gif">
+		<link rel="stylesheet" href="/media/reset.css">
+		<link rel="stylesheet" href="/media/reveal.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vibbioinfocore/reveal-vib-theme">
+    <link rel="stylesheet" href="/media/reveal-custom.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="/plugin/highlight/monokai.css">
+	</head>
+	<body>
+    <div id="vib-watermarks">
+      <div style="width: 0px; height: 0px; background-image: url(/media/vib-background.svg);" id="vib-background-image"></div>
+      <svg id="science-meets-life" class="science-meets-life-title">
+        <text x="10" y="50">SCIENCE MEETS LIFE</text>
+      </svg>
+      <svg id="vib-logo">
+        <g>
+          <text x="75" y="147">VIB</text>
+          <path style="fill:#ff681e" d="m 0,88 h 60 v 60 z"></path>
+          <path style="fill:#5c2a83" d="m 61.5,29.5 27,27, -27,27 z"></path>
+          <circle style="fill:#1cbbba" cx="32.5" cy="58" r="21"></circle>
+        </g>
+      </svg>
+    </div>
+		<div class="reveal">
+			<div class="slides">
+				<section id="title">
+          <h1>Software infrastructure</h1>
+        </section>
+        <section>
+          <h2>Application classes</h2>
+
+          <ol>
+            <li class="fragment">
+              Lightweight (client) applications
+              <ul>
+                <li class="fragment">Should be the default (IMHO).</li>
+                <li class="fragment">Easy (and cheap) to deploy.</li>
+                <li class="fragment">Computational power limited by (uncontrolled) client hardware.</li>
+                <li class="fragment">E.g. Calculator, Google docs</li>
+              </ul>
+            </li>
+            <li class="fragment">
+              Heavyweight (server) applications
+              <ul>
+                <li class="fragment">Share large state (database): trade-off client download.</li>
+                <li class="fragment">Computation requirements too large for client.</li>
+                <li class="fragment">Hard (and expensive) to deploy.</li>
+                <li class="fragment">Computational power limited by (controlled) server hardware.</li>
+                <li class="fragment">E.g. TTFD, Google Colab</li>
+              </ul>
+            </li>
+            <li class="fragment">Special cases</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Heavyweight application deployment</h2>
+          <h3>(e.g. TTFD)</h3>
+
+          <ol>
+            <li class="fragment">Commit pushed to remote repository.</li>
+            <li class="fragment">&quot;Continuous Integration&quot; tests are run automatically on remote.</li>
+            <li class="fragment">Docker hub pulls the commit and builds a container image.</li>
+            <li class="fragment">New image is pulled and the TTFD service is restarted.</li>
+            <li class="fragment">Database schema is possibly updated before listening for HTTP connections.</li>
+            <li class="fragment">Listen for HTTP connections.</li>
+          </ol>
+
+          <p class="fragment">Each is a possible point of failure.</p>
+        </section>
+        <section>
+          <img alt="TTFD Infrastructure" src="/media/ttfd-infrastructure.png">
+          <img alt="VIB Data Core Logo" src="https://datacore.sites.vib.be/sites/datacore.sites.vib.be/files/VIB%20Data%20Core%20logo%20-%20RGB%20-%20positive_Logo_1.png" width="99.7" height="56">
+        </section>
+        <section>
+          <h2>TTFD Trivia</h2>
+
+          <div class="r-stack">
+            <div class="fragment current-visible">
+              <h3>HTTP Server</h3>
+              <table>
+                <tr>
+                  <th></th>
+                  <th>Files</th>
+                  <th>Lines of code</th>
+                </tr>
+                <tr>
+                  <td>Python</td>
+                  <td>29</td>
+                  <td>7143</td>
+                </tr>
+                <tr>
+                  <td>HTML Templates</td>
+                  <td>16</td>
+                  <td>495</td>
+                </tr>
+                <tr>
+                  <td>Database migrations</td>
+                  <td>15</td>
+                  <td>878</td>
+                </tr>
+                <tr>
+                  <td>Tests</td>
+                  <td>5</td>
+                  <td>3280</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="fragment fade-in-then-out">
+              <h3>CLI client</h3>
+              <table>
+                <tr>
+                  <th></th>
+                  <th>Files</th>
+                  <th>Lines of code</th>
+                </tr>
+                <tr>
+                  <td>Rust</td>
+                  <td>10</td>
+                  <td>2721</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="fragment fade-in">
+              <h3>Javascript client (web browser)</h3>
+              <p>...doesn't exist!</p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Complexome</h2>
+
+          <ul>
+            <li class="fragment">No(t much) state.</li>
+            <li class="fragment">Not much computational power required.</li>
+            <li class="fragment">Deployed to Google Colab.</li>
+          </ul>
+
+          <p class="fragment">...this is a special case.</p>
+        </section>
+        <section>
+          <h2>Complexome</h2>
+
+          Deployment is painful:
+
+          <ol>
+            <li class="fragment">Make changes in notebook editor (probably Google Colab)</li>
+            <li class="fragment">Or make changes in code editor</li>
+            <li class="fragment">Manually test changes by breaking the notebook.</li>
+            <li class="fragment">Probably clear CDN caches (manually)</li>
+            <li class="fragment">Download the updated notebook from Colab</li>
+            <li class="fragment">Commit and push to remote</li>
+            <li class="fragment">Notice something broke and start again...</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Complexome</h2>
+
+          Usage is painful:
+
+          <ol>
+            <li class="fragment">Need to have a google account.</li>
+            <li class="fragment">Need to connect to a remote runtime.</li>
+            <li class="fragment">Need to know how to run a notebook.</li>
+            <li class="fragment">Changing parameters requires going back and re-running a bunch of &quot;cells&quot;</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Lightweight application deployment</h2>
+
+          <ol>
+            <li class="fragment">Commit pushed to remote repository.</li>
+            <li class="fragment">&quot;Continuous Integration&quot; tests are run automatically on remote.</li>
+            <li class="fragment">Make build artifacts available for download.</li>
+          </ol>
+        </section>
+        <section>
+          <h2>The web (browser) as a platform</h2>
+
+          <p>Problem: client-side web applications have to be written in Javascript.</p>
+          <p class="fragment">(but Complexome is written in Python)</p>
+          <p class="fragment">Solution: No they don't</p>
+        </section>
+        <section>
+          <h2>JINet</h2>
+
+          <p style="font-size:0.5em">JINet: Easy and secure data analysis for everyone. G. Lalli, <em>J. Collier</em>, Y. Moreau, and D. Raimondi. <em>In communication</em></p>
+
+          <div style="display:flex;gap:10px">
+            <iframe width="560" height="315" src="https://jinet.thecolliers.xyz/packages/run?package=james.collier412/HTML%20Demo@1" title="JINet HTML Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <pre style="max-width:45%; line-height:12px; font-size:12px"><code data-trim data-noescape class="language-r">
+main <- function (rows, cols, iterations) {
+  symbols <- c("░", "▒", "▓", "█")
+
+  str <- gsub(
+    pattern = "<br>",
+    replacement = "",
+    x = paste(sample(symbols, rows * cols, TRUE), collapse = ""),
+    fixed = TRUE
+  )
+  dat <- matrix(data = strsplit(str, "")[[1]], nrow = rows, ncol = cols, byrow = TRUE)
+
+  for (i in 1:iterations) {
+    r <- sample(2:(rows - 1), 1)
+    c <- sample(2:(cols - 1), 1)
+
+    h <- sample(-1:1, 1)
+    v <- sample(-1:1, 1)
+
+    dat[r + v, c + h] <- dat[r, c]
+  }
+
+  str <- ""
+  for (i in 1:rows) {
+    row <- paste(dat[i,], collapse = "")
+    str <- paste(str, row, sep = "<br>")
+  }
+  paste(str, "<br>", sep = "")
+}
+            </code></pre>
+          </div>
+          <a href="https://jinet.thecolliers.xyz">https://jinet.thecolliers.xyz</a>
+        </section>
+        <section>
+          <h2>JINet</h2>
+
+          <ul>
+            <li class="fragment">A Python/R/... interpreter is run in the web-browser.</li>
+            <li class="fragment">Software written in Python/R/... can be run entirely client-side.</li>
+            <li class="fragment">No server setup needed.</li>
+          </ul>
+        </section>
+        <section>
+          <p>... or just write it in (a language that compiles to) Javascript.</p>
+        </section>
+        <section>
+          <h2>Git hosting</h2>
+
+          <ul>
+            <li class="fragment">No identity: software is owned by each author on <code style="font-size:1.5rem">$HOSTING_SITE</code></li>
+            <li class="fragment">No sharing and no overview: to work with <code style="font-size:1.5rem">$COLLEAGUE</code> I have to ask permission, go through extra set-up (do they trust me to commit directly to their <code style="font-size:1.5rem">main</code> branch). Bart cannot see the TTFD kanban board.</li>
+            <li class="fragment">Relying on externals: e.g. TTFD is currently on Microsoft Github in the VIB BITS organisation.</li>
+            <li class="fragment">Proposal:
+              <ul>
+                <li>I would like to get off Microsoft Github.</li>
+                <li>Unified place for hosted source repositories.</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section id="final"><p>Questions?</p></section>
+			</div>
+		</div>
+
+		<script src="/media/reveal.js"></script>
+		<script src="/plugin/notes/notes.js"></script>
+		<script src="/plugin/markdown/markdown.js"></script>
+		<script src="/plugin/highlight/highlight.js"></script>
+    <script src="/plugin/zoom/zoom.js"></script>
+		<script>
+      let backgroundImage = null;
+
+      const setup = (event) => {
+        const viewport = document.querySelector("#vib-background-image");
+        backgroundImage = window.getComputedStyle(viewport).backgroundImage;
+        return event;
+      };
+
+      const dynamicStyles = (event) => {
+        let id = event.currentSlide.getAttribute("id");
+        let viewport = document.querySelector(".reveal-viewport");
+        let watermarks = document.querySelector("#vib-watermarks");
+        let science_meets_life = document.querySelector("#science-meets-life");
+
+        switch (id) {
+        case "title":
+          viewport.style.setProperty("--r-background-color", "#1b2944");
+          viewport.style.setProperty("--r-heading-color", "rgb(244, 244, 244)");
+          viewport.style.setProperty("background-image", backgroundImage);
+          watermarks.style.setProperty("display", "inline");
+          science_meets_life.setAttribute("class", "science-meets-life-title");
+          break;
+        case "final":
+          viewport.style.setProperty("background-image", undefined);
+          viewport.style.setProperty("--r-background-color", "#1b2944");
+          viewport.style.setProperty("--r-main-color", "#fff");
+          viewport.style.removeProperty("background-image");
+          watermarks.style.setProperty("display", "none");
+          break;
+
+        default:
+          viewport.style.setProperty("--r-background-color", "#f4f4f4");
+          viewport.style.setProperty("--r-heading-color", "#1b2944");
+          viewport.style.setProperty("--r-selection-color", "#1b2944");
+          viewport.style.setProperty("--r-main-color", "#1b2944");
+          viewport.style.removeProperty("background-image");
+          watermarks.style.setProperty("display", "inline");
+          science_meets_life.setAttribute("class", "science-meets-life-default");
+          break;
+        }
+      };
+
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom ]
+			});
+
+      Reveal.addEventListener("ready", (event) => dynamicStyles(setup(event)));
+      Reveal.addEventListener("slidechanged", dynamicStyles);
+		</script>
+	</body>
+</html>
