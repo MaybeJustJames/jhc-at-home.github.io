@@ -41,59 +41,75 @@
           <h2><em>Caveats</em></h2>
 
           <ol>
-            <li>Not scientific</li>
+            <li>Not (much) science</li>
             <li>Real problems</li>
             <li>Hopefully interesting</li>
           </ol>
         </section>
         <section>
-          <h2>Application classes</h2>
+          <h2>Values</h2>
 
-          <ol>
-            <li class="fragment">
-              Lightweight (client) applications
-              <ul>
-                <li class="fragment">Should be the default (IMHO).</li>
-                <li class="fragment">Do not require a server to function.</li>
-                <li class="fragment">Easy (and cheap) to deploy.</li>
-                <li class="fragment">Computational power limited by (uncontrolled) client hardware.</li>
-                <li class="fragment">E.g. Calculator, Google docs</li>
-              </ul>
-            </li>
+          <ul>
+            <li class="fragment fade-in-then-semi-out">Maintainability</li>
+            <li class="fragment fade-in-then-semi-out">Cost effectiveness</li>
+            <li class="fragment fade-in-then-semi-out">Fitness for purpose</li>
+            <li class="fragment fade-in-then-semi-out">Security</li>
+          </ul>
         </section>
         <section>
-          <h2>Application Classes</h2>
+          <img alt="Clients and server" src="/media/client-server.jpg">
+        </section>
+        <section>
+          <h2>Options</h2>
 
-          <ol start="2">
-            <li class="fragment">
-              Heavyweight (server) applications
+          <ol>
+            <li>
+              Client applications
               <ul>
-                <li class="fragment">Require a server to function.</li>
-                <li class="fragment">Share large state (database): trade-off client download.</li>
-                <li class="fragment">Computation requirements too large for client.</li>
-                <li class="fragment">Hard (and expensive) to deploy.</li>
-                <li class="fragment">Computational power limited by (controlled) server hardware.</li>
-                <li class="fragment">E.g. TTFD, Google Colab</li>
+                <li class="fragment" data-fragment-index="1">E.g. Calculator, Google docs</li>
+                <li class="fragment" data-fragment-index="2">Do not require a server to function.</li>
+                <li class="fragment" data-fragment-index="3">Easy (and cheap) to deploy and operate*.</li>
+                <li class="fragment" data-fragment-index="4">Computational power limited by (uncontrolled) client hardware.</li>
               </ul>
             </li>
           </ol>
+
+          <p class="fragment" data-fragment-index="3" style="font-size:1rem">* in general</p>
         </section>
-        <section>
-          <h2>Application classes</h2>
+        <section data-transition="none">
+          <h2>Options</h2>
+
+          <ol start="2">
+            <li>
+              Server applications
+              <ul>
+                <li class="fragment" data-fragment-index="1">E.g. TTFD, Google Colab</li>
+                <li class="fragment" data-fragment-index="2">Require a server to function.</li>
+                <li class="fragment" data-fragment-index="3">Share large state (database): trade-off client download.</li>
+                <li class="fragment" data-fragment-index="4">Computation requirements too large for client.</li>
+                <li class="fragment" data-fragment-index="5">Hard (and expensive) to deploy and operate*.</li>
+                <li class="fragment" data-fragment-index="6">Computational power limited by (controlled) server hardware.</li>
+              </ul>
+            </li>
+          </ol>
+
+          <p class="fragment" data-fragment-index="5" style="font-size:1rem">* in general</p>
+        </section>
+        <section data-transition="none">
+          <h2>Options</h2>
 
           <ol start="3">
             <li>
               Special cases
               <ul>
-                <li class="fragment">GPUs required</li>
-                <li class="fragment">Special hardware</li>
-                <li class="fragment">Special environment (e.g. Google Colab)</li>
+                <li class="fragment">Special hardware (e.g. GPUs, sensors, ...)</li>
+                <li class="fragment">Special environment (e.g. Google Colab, propriety data formats, ...)</li>
               </ul>
             </li>
           </ol>
         </section>
         <section>
-          <h2>Heavyweight application deployment</h2>
+          <h2>Server application deployment</h2>
           <h3>(e.g. TTFD)</h3>
 
           <ol>
@@ -108,14 +124,19 @@
           <p class="fragment">Each is a possible point of failure.</p>
         </section>
         <section>
-          <img alt="TTFD Infrastructure" src="/media/ttfd-infrastructure.png">
-          <img alt="VIB Data Core Logo" src="https://datacore.sites.vib.be/sites/datacore.sites.vib.be/files/VIB%20Data%20Core%20logo%20-%20RGB%20-%20positive_Logo_1.png" width="99.7" height="56">
+          <h2 style="margin:0">Server application operation</h2>
+          <img alt="TTFD Infrastructure" src="/media/ttfd-infrastructure.png" style="margin:0">
+          <img alt="VIB Data Core Logo" src="https://datacore.sites.vib.be/sites/datacore.sites.vib.be/files/VIB%20Data%20Core%20logo%20-%20RGB%20-%20positive_Logo_1.png" width="99.7" height="56" style="margin:0">
+          <!-- <div style="display:flex;flex-direction:column;align-items:center"> -->
+          <!--   <img alt="VIB Data Core Logo" src="https://datacore.sites.vib.be/sites/datacore.sites.vib.be/files/VIB%20Data%20Core%20logo%20-%20RGB%20-%20positive_Logo_1.png" width="99.7" height="56"> -->
+          <!--   <img alt="TTFD Infrastructure" src="/media/ttfd-infrastructure.png"> -->
+          <!-- </div> -->
         </section>
         <section>
           <h2>TTFD Trivia</h2>
 
           <div class="r-stack">
-            <div class="fragment current-visible">
+            <div class="fragment fade-out" data-fragment-index="0">
               <h3>HTTP Server</h3>
               <table>
                 <tr>
@@ -146,7 +167,7 @@
               </table>
             </div>
 
-            <div class="fragment fade-in-then-out">
+            <div class="fragment fade-up fade-in-then-out" data-fragment-index="0">
               <h3>CLI client</h3>
               <table>
                 <tr>
@@ -162,7 +183,7 @@
               </table>
             </div>
 
-            <div class="fragment fade-in">
+            <div class="fragment fade-up">
               <h3>Javascript client (web browser)</h3>
               <p>...doesn't exist!</p>
             </div>
@@ -182,7 +203,7 @@
         <section>
           <h2>Complexome</h2>
 
-          Deployment is painful:
+          Deployment is painful*:
 
           <ol>
             <li class="fragment">Make changes in notebook editor (probably Google Colab)</li>
@@ -193,11 +214,13 @@
             <li class="fragment">Commit and push to remote</li>
             <li class="fragment">Notice something broke and start again...</li>
           </ol>
+
+          <p>* but at least we don't need to operate a server</p>
         </section>
         <section>
           <h2>Complexome</h2>
 
-          Usage is painful:
+          Painful for users:
 
           <ol>
             <li class="fragment">Need to have a google account.</li>
@@ -207,7 +230,7 @@
           </ol>
         </section>
         <section>
-          <h2>Lightweight application deployment</h2>
+          <h2>Client application deployment</h2>
 
           <ol>
             <li class="fragment">Commit pushed to remote repository.</li>
@@ -219,7 +242,7 @@
           <h2>The web (browser) as a platform</h2>
 
           <p>Problem: client-side web applications have to be written in Javascript.</p>
-          <p class="fragment">(but Complexome is written in Python)</p>
+          <p class="fragment fade-in-then-semi-out">(but Complexome is written in Python)</p>
           <p class="fragment">Solution: No they don't</p>
         </section>
         <section>
@@ -234,7 +257,7 @@ main <- function (rows, cols, iterations) {
   symbols <- c("░", "▒", "▓", "█")
 
   str <- gsub(
-    pattern = "<br>",
+    pattern = "&lt;br&gt;",
     replacement = "",
     x = paste(sample(symbols, rows * cols, TRUE), collapse = ""),
     fixed = TRUE
@@ -265,14 +288,16 @@ main <- function (rows, cols, iterations) {
         <section>
           <h2>JINet</h2>
 
-          <ul>
-            <li class="fragment">A Python/R/... interpreter is run in the web-browser.</li>
-            <li class="fragment">Software written in Python/R/... can be run entirely client-side.</li>
-            <li class="fragment">No server required (only for application delivery as a static file).</li>
-          </ul>
+          <p>A Python/R/... interpreter running in the web-browser*.</p>
+          <p class="fragment" data-fragment-index="2">Software written in Python/R/... can be run entirely client-side<sup>&dagger;</sup>.</p>
+
+          <div style="margin-top:10rem;font-size:1.5rem">
+            <p class="fragment" data-fragment-index="1">* no server required.</p>
+            <p class="fragment" data-fragment-index="3"><sup>&dagger;</sup> without the user needing to install <em>anything!</em></p>
+          </div>
         </section>
         <section>
-          <p>... or just write it in (a language that compiles to) Javascript.</p>
+          <p>... or just write your app in (a language that compiles to) Javascript.</p>
         </section>
         <section>
           <h2>Git hosting</h2>
