@@ -44,6 +44,12 @@ children. Currently, I work for VIB Technologies building web applications.
 ## Experience
 
 `2019-current`
+__Flemish Institute of Biotechnology, Leuven, Belgium__
+Software engineer embedded in the [Metabolomics Core Facility](https://metabolomicscore-leuven.sites.vib.be/).
+* Working on a system for understanding metabolic paths: [TTFD](https://ttfd.vib.be)
+* Various research software.
+
+`2019-2024`
 __Flemish Institute of Biotechnology, Gent, Belgium__
 Bioinformatics Tool Developer
 * Improved development process.
@@ -94,6 +100,15 @@ __Bachelor of Science, Monash University, Clayton, Australia__
 **[React](https://github.com/vibbits/buzz)**, **[FastAPI](https://github.com/vibbits/buzz)**, **[PyTest](https://github.com/aertslab/SCope/tree/develop)**, **Hedgehog**, **[Hypothesis](https://github.com/aertslab/SCope/tree/develop)**, **[Redux](https://github.com/vibbits/buzz)**, **Servant**, **Rel8**, **[SQLAlchemy](https://github.com/vibbits/buzz)**
 
 ## Software
+
+<code><a href="https://github.com/MaybeJustJames/ElMaven/tree/vib-metabolomics-main">El-Maven</a></code>
+LC-MS data processing tool for large-scale metabolomics experiments in C++. Forked from Elucidata Inc.
+
+<code><a href="https://git.sr.ht/~maybejustjames/ms-peak-integration">MS-Peaky</a></code>
+Minimum Message Length powered integration of mass-spectroscopy peak data.
+
+<code><a href="https://git.sr.ht/~maybejustjames/sexpc">Sexp</a></code>
+An experimental lispish compiler targeting webassembly. Written in C.
 
 <code><a href="https://github.com/MaybeJustJames/zephyr">Zephyr</a></code>
 Dead code elimination tool for [Purescript](https://purescript.org/) written in [Haskell](https://haskell.org/).
@@ -162,6 +177,10 @@ Member of _Golden Key International Honour Society_ for outstanding achievement.
 
 
 ## Publications
+
+`2025`
+**JINet: easy and secure private data analysis for everyone** BMC Bioinformatics
+[10.1186/s12859-025-06244-8](https://doi.org/10.1186/s12859-025-06244-8)
 
 `2024`
 **A python library for the fast and scalable computation of biologically meaningful individual specific networks** Scientific Reports
