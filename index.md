@@ -43,7 +43,11 @@ children. Currently, I work for VIB Technologies building web applications.
 
 ## Experience
 
-`2025-current`
+`2026-current`
+__Indigo House, Dongen, The Netherlands__
+Senior Software Engineer
+
+`2025`
 __Flemish Institute of Biotechnology, Leuven, Belgium__
 Software engineer embedded in the [Metabolomics Core Facility](https://metabolomicscore-leuven.sites.vib.be/).
 * Working on a system for understanding metabolic paths: [TTFD](https://ttfd.vib.be)
